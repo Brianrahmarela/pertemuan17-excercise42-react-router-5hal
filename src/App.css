@@ -1,38 +1,90 @@
 .App {
-  text-align: center;
+	text-align: center;
+	/* background-color: silver; */
 }
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap");
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.container-nav {
+	background-color: white;
+	padding: 20px;
+	/* box-shadow: inset 0px 43px 30px -42px rgba(0, 0, 0, 0.63); */
+
+	/* box-shadow: inset 0px 18px 19px -11px rgba(0, 0, 0, 0.46); */
+	/* box-shadow: inset 0px 8px 7px -5px rgba(0, 0, 0, 0.71); */
+}
+/* #nav {
+	background-color: silver;
+} */
+
+a {
+	color: black;
+	margin: 30px;
+	text-decoration: none;
+}
+
+body {
+	background-color: #e1e6e9;
+	font-family: "Mulish", sans-serif;
+	font-weight: 400;
+}
+
+.forms {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+		0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+		0 16px 16px rgba(0, 0, 0, 0.12);
+	border-radius: 15px;
+	background-color: white;
+	width: 500px;
+	padding: 10px 0px 30px 0px;
+}
+
+#submit {
+	background-color: black;
+	color: azure;
+	padding: 5px 20px 5px 20px;
+}
+
+.formsdiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box div {
+	width: 100px;
+	height: 100px;
 }
